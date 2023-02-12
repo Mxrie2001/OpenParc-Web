@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Voltaire&display=swap');
+
+.container_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    
+}
+
+#menu{
+    background-color: #C34413;
+    color: white;
+    font-family: "Voltaire", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0.5em;
+    transition: 0.5s;
+    text-decoration: none;
+    width: 25em;
+    height: 12em;
+    margin: 0.5em;
+}
+
+#menu p{
+    font-size: 72px;
+    text-align: center;
+}
+
+#menu:hover{
+    transform:scale(1.10);
+}

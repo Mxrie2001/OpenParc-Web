@@ -1,0 +1,149 @@
+#container a{
+    background-color: #C34413;
+    color: white;
+    font-family: "Voltaire", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1em;
+    transition: 0.5s;
+    text-decoration: none;
+    width: 20em;
+    height: 10em;
+}
+
+#container p{
+    font-size: 16px;
+}
+
+#image_hotel{
+    width: 5em;
+}
+
+#container a:hover{
+    transform:scale(1.05);
+}
+
+.card_vip > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card_vip a{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_vip img{
+    width: 5em;
+}
+
+select{
+    width: 5em;
+    height: 2em;
+}
+
+#container_reservation_vip{ 
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#reserver_hotel_vip{
+    background-color: #C34413;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    margin: 1em;
+  }
+
+  #reserver_hotel_vip input{
+    border-radius: 5px;
+    margin-bottom:0.5em;
+    width: 24em;
+  }
+
+  #reserver_hotel_vip button{
+    width: 24em;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+    margin-top: 1em;
+}
+
+.date{
+    display: flex;
+}
+
+#titre_reserver{
+    text-align: center;
+    padding: 0;
+}
+
+#hotel_dispo_liste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#hotel_dispo_liste #container{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: #C34413;
+    color: white;
+    font-family: "Voltaire", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1em;
+    transition: 0.5s;
+    text-decoration: none;
+    width: 8em;
+    font-size: 36px;
+}
+
+
+#hotel_details_reservation{
+    background-color: #C34413;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    margin: 1em;
+}
+
+#affichage_recherche_reservation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hotel_details_reservation{
+    height: 30em;
+}
+
+.form_recup_reservation{
+    height: 32em;
+}
+
+#image_hotel_detail{
+    width: 15em;
+}

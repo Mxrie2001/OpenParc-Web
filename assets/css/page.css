@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Voltaire&display=swap');
+
+
+body{
+    margin: 0;
+    min-height:100vh; 
+    display:flex;
+    flex-direction:column;
+}
+
+main{
+    flex-grow:1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C34413;
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+#container_header{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+
+header img{
+    width: 70%;
+    padding: 0.25em;
+    transition: 0.5s;
+}
+
+header img:hover{
+    transform:scale(1.05);
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+a p {
+    font-size: 1.5em;
+    padding: 0.25em;
+}
+
+.deconnexion a:hover{
+    color: black;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
+footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+span{
+    padding-left: 0.2em;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #c345131e;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #C34413;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  h2{
+      margin: 1em;
+  }
+
+
+  .card p{
+    background-color: #C34413;
+    color: white;
+    font-family: "Voltaire", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1em;
+    transition: 0.5s;
+    text-decoration: none;
+    width: 8em;
+    font-size: 36px;
+}
+
+.card p:hover{
+    transform:scale(1.05);
+}
+
+.card > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titre_partenaires{
+    font-family: "Voltaire", sans-serif;
+    padding-left: 1em;
+    margin-bottom: 0;
+    font-size: 64px;
+}
+
+
+
+#ajout_partenaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-right: 2em;
+    font-weight: bold;
+}
+
+#ajout_partenaire div{
+    display: flex;
+}
+
+#plus_part{
+    text-decoration: underline;
+}
+
+
+#delete{
+    width: 2em;
+    position: relative;
+    top: 170%;
+    z-index: 200;
+}
+
+#modify{
+    width: 2em;
+    position: relative;
+    bottom: 150%;
+    z-index: 200;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#container a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #C34413;
+    color: black;
+    font-weight: bold;
+    font-family: "Voltaire", sans-serif;
+    border-radius: 60px;
+    height: 4em;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 500;
+  }
+
+  .form-popup h1{
+      margin: 0;
+      
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    padding: 1em;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=number], .form-container select{
+    width: 93%;
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+    margin-bottom: 0.5em;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=number]:focus, .form-container select:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #C34413;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  /* Ajout Gerant coté staff Home */
+
+  #ajouter_gerant_staff{
+    background-color: #C34413;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    margin: 1em;
+  }
+
+  #ajouter_gerant_staff input{
+    border-radius: 5px;
+    margin-bottom:0.5em;
+    width: 24em;
+  }
+
+  #ajouter_gerant_staff button{
+    width: 24em;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Page de details des Hotels coté staff */
+#details_hotels_staff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation_image a{
+    display: flex;
+    align-items: flex-end;
+}
+
+#img_hotel{
+    height: 30em;
+    width: 30em;
+    border-radius: 10px;
+
+}
+
+
+#hotel_detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#infoG div{
+    display: flex;
+    align-items: center;
+}
+
+
+#infoG p{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    width: 40em;
+    margin-left: 1em;
+}
+
+/* Modifier Partenaire coté Staff */
+
+#modif_partenaire_staff{
+    background-color: #C34413;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    margin: 1em;
+  }
+
+  #modif_partenaire_staff input{
+    border-radius: 5px;
+    margin-bottom:0.5em;
+    width: 24em;
+  }
+
+  #modif_partenaire_staff button{
+    width: 24em;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+#container_modif{
+    display: flex;
+    justify-content: center;
+}
+
+/* Reservation coté Staff */
+
+#card_reservation_staff{
+    display: flex;
+    background-color: black;
+}
+
+#container_reservation{
+    display: flex;
+    justify-content: center;
+}
+
+#container_reservation_hotel{
+    display: flex;
+    flex-direction: column;
+    background-color: #C34413;
+    color: white;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    margin: 1em;
+}
+
+#container_reservation_hotel h2{
+    font-family: "Voltaire", sans-serif;
+    text-align: center;
+}
+
+#container_info{
+    background-color: black;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+/* Page service Hotel */
+
+#ajout_service{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    padding-right: 2em;
+    font-weight: bold;
+}

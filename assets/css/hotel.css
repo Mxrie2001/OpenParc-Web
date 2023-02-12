@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Voltaire&display=swap');
+
+#haut_page{
+    margin-left: 2em;
+}
+
+h1{
+    font-family: "Voltaire", sans-serif;
+    
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img{
+    width: 2em;
+    margin: 0.25em;
+}
+
+#presentation_image{
+    display: flex;
+}
+
+#presentation_image a img{
+    width: 2em;
+    margin: 0.25em;
+    height: 2em;
+}
+
+#presentation_image a{
+    display: flex;
+    align-items: flex-end;
+}
+
+#img_hotel{
+    height: 30em;
+    width: 30em;
+    border-radius: 10px;
+
+}
+
+
+#hotel_detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#infoG div{
+    display: flex;
+    align-items: center;
+}
+
+
+#infoG p{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    width: 40em;
+    margin-left: 1em;
+}
+
+#mois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mois_annee p{
+    background-color: #C34413;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: 0.25em
+}
+
+button{
+    background-color: #C34413;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: 0.25em
+}
+
+a{
+    background-color: #C34413;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: 0.25em
+}
+
+.les_chambres{
+    display: flex;
+}
+
+.chambre{
+    background-color: #C34413;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 0.25em;
+    width:fit-content
+
+}
+
+#ajout_chambre{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    padding-right: 2em;
+    font-weight: bold;
+}
+
+
+
+
