@@ -1,4 +1,4 @@
-# OpenParc-Web
+# OpenParc Web
 
 
 ## Explication :
@@ -19,7 +19,7 @@ Coté Hotel :
 N.B Les dates ne dépendent pas des dates des tournois mais sont généré automatiquement à partir de la date actuelle (12 mois)
 
 
-## Les differents comptes utiles selon la bdd :
+## Comptes utiles selon la BDD :
 
 1. Joueur
 - user: joueur@gmail.com
